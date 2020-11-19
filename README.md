@@ -113,7 +113,7 @@ or
 Make your pages load super fast and stop worrying about timeouts. Give each chart its own endpoint.
 
 ```erb
-<%= line_chart completed_tasks_charts_path %>
+<%= line_chart charts_completed_tasks_path %>
 ```
 
 And in your controller, pass the data as JSON.
